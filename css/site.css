@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+hr{
+    width: 175px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 0.1rem solid rgba(255,255,255,1);
+}
+#search-bar{
+    position: absolute;
+    background-color: #49557a;
+    opacity: 0.8;
+    width: 100%;
+    left: 0;
+    bottom: -51;
+    z-index: 4;
+}
+.nav-header-link:hover {
+background-color: red;
+}
+.nav-header-link {
+    padding: 15px !important;
+}
+.dropdown-menu{
+    margin-top: 5px;
+}
+.carousel-caption-home
+{
+    top: 10rem;
+}
+#nav-header{
+    padding-bottom: 0px;
+    align-items: flex-end;
+    border-bottom: 5px solid;
+    border-color: black;
+}
+#brand-logo{
+    padding-bottom: 8px;
+}
+.carousel-item{
+    height: 80%;
+}
+.nav-tabs{
+    border-bottom: 3px solid;
+    border-color: red;
+}
+#footer-nav{
+    position: relative;
+    top: -42px;
+    z-index: 16;
+}
+#footer-content{
+    background-color:  #111620;
+    height: 12.3vh;
+}
+#footer-logo{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-content: center;
+    align-items: center;
+}
+.carousel-caption-footer{
+    position: static;
+    padding-bottom: 0px;
+    
+
+}
+.footer-carousel-button{
+    margin: 2rem 4px 0px 4px ;
+    padding: 0.5rem;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+#carouselExampleControls{
+    text-align: left;
+    width: 35rem;
+    margin-right: 1rem;
+}
+@media only screen and (min-width: 1366px) {
+    .carousel-item-image {
+        width:  1366px;
+    }
+}
